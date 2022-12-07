@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <Import Project="..\packages\OctoPack.3.6.4\build\OctoPack.targets" Condition="Exists('..\packages\OctoPack.3.6.4\build\OctoPack.targets')" />
 
 
 </Project>
